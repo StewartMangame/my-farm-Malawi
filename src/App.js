@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/homepage/home';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Loans from './components/loans/loans';
+import Markets from './components/markets/markets';
+import SubsidyApplicationForm from './components/subsidy-application/subsidyApplicationForm';
+import Consultation from './components/consultation/consultation';
+import Cooperatives from './components/cooperatives/cooperative';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path='loans' element={<Loans/>}/>
+        <Route path="markets" element={<Markets/>}/>
+        <Route path="consultation" element={<Consultation/>}/>
+        <Route path="cooperatives" element={<Cooperatives/>}/>
+        <Route path="subsidy-application" element={<SubsidyApplicationForm/>}/>
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }
