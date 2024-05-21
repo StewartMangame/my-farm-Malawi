@@ -1,68 +1,67 @@
-import React from "react";
-import "./loans.css";
+import React from 'react';
 
-
-const Loans=()=>{
-  const loans=[
-{id:1,
-  name:'Money Loan',
-  interestrate:16.5,
-  value:500000,
-  tenure:3,
-  link:"https://firstcapitalbank.co.mw/personal/lending-facilities/personal-loans/",
-  
-},
-{
-id:2,
-name:'Farm equipment Loan',
-interestrate:10.5,
-value:1000000,
-tenure:2,
-link:"https://www.natbank.co.mw/retail/personal-loan-facilities/farm-infrastructure-and-implements-loan",
-},
-{
-  id:3,
-  name:'Magulu Loan',
-  interestrate:5,
-  value:2000000,
-  tenure:2,
-  link:"https://ebrary.ifpri.org/digital/collection/p15738coll2/id/136709/#:~:text=Primary%20agricultural%20cooperatives%20in%20Malawi%2C%20in%20contrast%20to%20other%20farmer,the%20profit%20of%20their%20members.",
-
-
-}
-
-  ];
-
+//function component ive named it Loans that should output available loans and provide link for famers to apply for it
+//it 
+//ive commented here so coz i was failing to comment inside  
+const Loans = () => {
   return (
-    <>
-    <div className="container">
-    <h1>
-      Available Agriculture Loans
-    </h1>
-    <p>Welcome to Myfarm loan application site well we give you updates on the vailaible loans for farms and the links on how you can access then in different banksn around Malawi that have fair interest fees </p>
-     <p>ts 100% online </p>
-     <p>100% fair</p>
-    <ul>
-      
-    <div className="card">
-     {loans.map((loans) => (
-      <li key={(loans.id)}>
-      <h2>{loans.name}</h2>
-      <p>interest rate: {loans.interestrate} %</p>
-      <p>Maximum amount: {loans.value}</p>
-      <p>Loan duration: {loans.tenure} years</p>
-       <a href={loans.link}><button>Apply now</button></a>
-      </li>
+    <div className="container mx-auto p-4 w-full bg-gray-100">
+      <div className="bg-green-600 p-4 text-white text-center">
+        <h1 className="text-4xl font-bold">Available Agriculture Loans</h1>
+      </div>
+      <div className="p-4 text-center">
+        <p>myfarm-malawi is here to help farmers and ranchers get the farming loan support they need to increase their farming production.</p>
+        <p>Whether you’re a new farmer just getting started or a seasoned rancher in business for decades, we provide information about the available agriculture loan of fair interest options to help you meet your goals which is increasing productivity.</p>
+        
+      </div>
 
-     ))}
+      <div className="space-y-4">
+        <div className="bg-white p-4 rounded-lg shadow-md flex flex-row items-">
+          <div className="flex-1">
+          
+            <h2 className="text-3xl font-semibold">Money Loan</h2>
+            <p>Interest rate: 16.5%</p>
+            <p>Minimum amount : Mk 50 000.00</p>
+            <p>Maximum amount : Mk 500 000.00</p>
+            <p>Loan duration: 1.5 - 3 years</p>
+            <button  className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-md cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold">Apply now</button>
+             
+          </div>
+          <div className="w-60 h-50">
+            <img src="https://th.bing.com/th/id/OIP.bBEzN-Drkhxji67YfCmkrAHaD4?rs=1&pid=ImgDetMain" alt="Money Loan" className="w-full h-full object-cover rounded-md "/>
+          </div>
+        </div>
+        
+        <div className="bg-white p-4 rounded-lg shadow-md flex flex-row items-center">
+          <div className="flex-1">
+            <h2 className="text-3xl font-semibold">Farm Equipment Loan</h2>
+            <p>Interest rate: 10.5%</p>
+            <p>Minimum equipment value : Mk 250 000.00</p>
+            <p>Maximum equipment value : Mk 10 000 000.00</p>
+            <p>Loan duration:2 - 7 years</p>
+           <a href="https://firstcapitalbank.co.mw/personal/lending-facilities/personal-loans/"> <button className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-md cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold">Apply now</button></a>
+          </div>
+          <div className="w-60 h-50">
+            <img src="https://th.bing.com/th/id/OIP.3_gEehg_RQtGHrzCRvQyJQHaE8?rs=1&pid=ImgDetMain" alt="Farm Equipment Loan" className="w-full h-full object-cover rounded-md"></img>
+          </div>
+        </div>
+
+        <div className="bg-white p-4 rounded-lg shadow-md flex flex-row items-center">
+          <div className="flex-1">
+            <h2 className="text-3xl font-semibold">Magulu Loan</h2>
+            <p>Interest rate: 5.5%</p>
+            <p>Minimum amount : Mk 100 000.00</p>
+            <p>Maximum amount : Mk 5 000 000.00</p>
+            <p>Loan duration: 1.5 - 3 years</p>
+           <a href='https://ebrary.ifpri.org/digital/collection/p15738coll2/id/136709/#:~:text=Primary%20agricultural%20cooperatives%20in%20Malawi%2C%20in%20contrast%20to%20other%20farmer,the%20profit%20of%20their%20members.'> <button className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-md cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold">Apply now</button></a>
+          </div>
+          <div className="w-60 h-50">
+            <img src="https://th.bing.com/th/id/OIP.tGTVnwrTjJ-3kyhWgKnRzgHaEo?w=299&h=186&c=7&r=0&o=5&pid=1.7" alt="Money Loan" className="w-full h-full object-cover rounded-md "/>
+          </div>
+        </div>
       </div>
-      <div className="card">
-      </div>
-    </ul>
-    
     </div>
-    </>
   );
 };
-export default Loans;
 
+export default Loans;
