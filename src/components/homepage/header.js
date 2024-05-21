@@ -1,6 +1,6 @@
 import React from "react";
 import './header.css';
-// import logo from './logo.png';
+import logo from './logo.png';
 import { NavLink } from "react-router-dom";
 // import SearchIcon from '@mui/icons-material/Search';
 
@@ -10,7 +10,7 @@ function Header() {
         <div className="Header">
             <div className="logo_container_col1">
                 <div className="logo_container_image">
-                    {/* <img className="log" src={logo} alt="logo" /> */}
+                    <img className="log" src={logo} alt="logo" />
                 </div>
                 <p>My <span>Farm</span></p>
             </div>

@@ -6,8 +6,7 @@ import Markets from './components/markets/markets';
 import SubsidyApplicationForm from './components/subsidy-application/subsidyApplicationForm';
 import Consultation from './components/consultation/consultation';
 import Cooperatives from './components/cooperatives/cooperative';
-import Home1 from './components/pages/home1';
-import AboutD from './components/slider/aboutD';
+
 
 function App() {
   return (
@@ -22,8 +21,7 @@ function App() {
         <Route path="cooperatives" element={<Cooperatives/>}/>
         <Route path="subsidy-application" element={<SubsidyApplicationForm/>}/>
       </Routes>
-      <AboutD/>
-      <Home1/>
+      
       </BrowserRouter>
     </div>
   );
