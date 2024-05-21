@@ -1,5 +1,7 @@
+
 import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
+
 
 
 
@@ -25,15 +27,15 @@ const Cooperativeform = ({ onAddCooperative }) => {
   };
 
   return (
-    <div className="bg-green-500" >
-    <div className="bg-green-500 border border-gray-300 rounded-md p-5 mx-auto my-5 max-w-lg">
+    <div className="bg-green-500 " >
+    <div className="bg-green-500 border border-gray-300 rounded-md p-5 mx-auto my-5 max-w-lg ">
       <header className="text-center mb-5">
         <h1 className="text-3xl font-bold">Cooperative Registration</h1>
       </header>
       <h2 className="text-center text-2xl font-bold mb-5">Create Cooperative</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group mb-4">
-          <label htmlFor="name" className="block mb-2 font-bold">Cooperative Name:</label>
+          <label htmlFor="name" className="block mb-2 font-bold text-left">Cooperative Name:</label>
           <input
             type="text"
             name="name"
@@ -45,7 +47,7 @@ const Cooperativeform = ({ onAddCooperative }) => {
           />
         </div>
         <div className="form-group mb-4">
-          <label htmlFor="location" className="block mb-2 font-bold bg-black-400">Location:</label>
+          <label htmlFor="location" className="block mb-2 font-bold bg-black-400 text-left">Location:</label>
           <input
             type="text"
             name="location"
@@ -57,7 +59,7 @@ const Cooperativeform = ({ onAddCooperative }) => {
           />
         </div>
         <div className="form-group mb-4">
-          <label htmlFor="aim" className="block mb-2 font-bold">Cholinga:</label>
+          <label htmlFor="aim" className="block mb-2 font-bold text-left">Cholinga:</label>
           <textarea 
             name="aim"
             id="aim"
@@ -68,7 +70,7 @@ const Cooperativeform = ({ onAddCooperative }) => {
           />
         </div>
         <div className="form-group mb-4">
-          <label htmlFor="structure" className="block mb-2 font-bold">Type of Cooperative:</label>
+          <label htmlFor="structure" className="block mb-2 font-bold text-left">Type of Cooperative:</label>
           <select 
             name="structure" 
             id="structure" 
@@ -85,7 +87,7 @@ const Cooperativeform = ({ onAddCooperative }) => {
           </select>
         </div>
         <div className="form-group mb-4">
-          <label htmlFor="numMembers" className="block mb-2 font-bold">Number of Members:</label>
+          <label htmlFor="numMembers" className="block mb-2 font-bold text-left">Number of Members:</label>
           <input
             type="number"
             name="numMembers"
@@ -99,7 +101,7 @@ const Cooperativeform = ({ onAddCooperative }) => {
         <div className="flex justify-center items-center">
         <button 
           type="submit" 
-          className="bg-yellow-500 text-black py-2 px-5 border-none rounded-md w-full cursor-pointer text-center"
+          className="bg-orange-500 text-black py-2 px-5 border-none rounded-md w-full cursor-pointer text-center"
         >
           Register
         </button></div>
