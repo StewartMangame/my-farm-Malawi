@@ -1,3 +1,4 @@
+
 import './App.css';
 import Home from './components/homepage/home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -7,7 +8,12 @@ import SubsidyApplicationForm from './components/subsidy-application/subsidyAppl
 import Consultation from './components/consultation/consultation';
 import Cooperatives from './components/cooperatives/cooperative';
 
-function App() {
+
+
+
+const App = () => {
+ 
+  
   return (
     <div className="App">
       <BrowserRouter>
