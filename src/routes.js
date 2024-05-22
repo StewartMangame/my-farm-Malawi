@@ -3,14 +3,14 @@ import Home from "./components/homepage/home.js";
 import Cooperatives from "./components/cooperatives/cooperative.js";  
 import Cooperativeform from "./components/cooperatives/cooperativeform"
 
-const router = createBrowserRouter([[
+const router = createBrowserRouter([
 
     {
         path:"/",
         element: <Home/> 
     },
     {
-        path:"/cooperative",
+        path:"/cooperatives",
         element:<Cooperatives/>
     },
     {
@@ -18,6 +18,5 @@ const router = createBrowserRouter([[
         element: <Cooperativeform/>
     }
 
-]]);
-
+]); 
 export default router;

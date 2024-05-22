@@ -19,9 +19,9 @@ function Header() {
                 
                     <Link className="nav_list_iten" to="markets">Markets</Link>
                     <Link className="nav_list_iten" to="loans">Loans</Link>
-                    <Link className="nav_list_iten" to="consultation ">Consultation</Link>
-                    <Link className="nav_list_iten" to="cooperatives">Cooperatives</Link>
-                    <Link className="nav_list_iten " to="Subsidy-application">Subsidy-application</Link>
+                    <Link className="nav_list_iten" to="consultation">Consultation</Link>
+                    <Link className="nav_list_iten" to="/cooperatives">Cooperatives</Link>
+                    <Link className="nav_list_iten " to="Subsidy-application">SubsidyApplication</Link>
                 </ul>
                 <div className="search_container">
                     <div className="search_input_wrapper">
