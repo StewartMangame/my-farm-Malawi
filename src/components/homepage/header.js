@@ -1,7 +1,7 @@
 import React from "react";
 import './header.css';
 // import logo from './logo.png';
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import SearchIcon from '@mui/icons-material/Search';
 
 
@@ -17,11 +17,11 @@ function Header() {
             <div className="logo_container_col2">
                 <ul className="nav_list">
                 
-                    <NavLink className="nav_list_iten" to="markets">Markets</NavLink>
-                    <NavLink className="nav_list_iten" to="loans">Loans</NavLink>
-                    <NavLink className="nav_list_iten" to="consultation ">Consultation</NavLink>
-                    <NavLink className="nav_list_iten" to="cooperatives">Cooperatives</NavLink>
-                    <NavLink className="nav_list_iten " to="Subsidy-application">Subsidy-application</NavLink>
+                    <Link className="nav_list_iten" to="markets">Markets</Link>
+                    <Link className="nav_list_iten" to="loans">Loans</Link>
+                    <Link className="nav_list_iten" to="/landingpange">Consultation</Link>
+                    <Link className="nav_list_iten" to="cooperatives">Cooperatives</Link>
+                    <Link className="nav_list_iten " to="Subsidy-application">Subsidy-application</Link>
                 </ul>
                 <div className="search_container">
                     <div className="search_input_wrapper">
