@@ -7,27 +7,29 @@ import Loans from './components/loans/loanshome';
 
 import Markets from './components/markets/markets';
 import SubsidyApplicationForm from './components/subsidy-application/subsidyApplicationForm';
-import Consultation from './components/consultation/consultation';
 import Cooperatives from './components/cooperatives/cooperative';
+import Consultation from './components/consultation/bookingForm';
+import LandingPage from './components/consultation/consultation';
+
 
 import Login from './components/login/login';
 
 import Cooperativeform from './components/cooperatives/cooperativeform';
 
 
+
 const App = () => {
- 
-
-
- 
+  
   
   return (
     <div className="App">
 
+
         <Home/>
         <Loans/>
         <Markets/>
-     <Consultation/>
+      <LandingPage/>
+      <Consultation/>
       <Cooperatives/>
        <Cooperativeform/>
         <SubsidyApplicationForm/>
