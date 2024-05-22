@@ -7,9 +7,11 @@ import SubsidyApplicationForm from './components/subsidy-application/subsidyAppl
 import Consultation from './components/consultation/consultation';
 import Cooperatives from './components/cooperatives/cooperative';
 
+
 function App() {
   return (
     <div className="App">
+      
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -19,6 +21,7 @@ function App() {
         <Route path="cooperatives" element={<Cooperatives/>}/>
         <Route path="subsidy-application" element={<SubsidyApplicationForm/>}/>
       </Routes>
+      
       </BrowserRouter>
     </div>
   );
