@@ -7,9 +7,11 @@ import SubsidyApplicationForm from './components/subsidy-application/subsidyAppl
 import Consultation from './components/consultation/consultation';
 import Cooperatives from './components/cooperatives/cooperative';
 
+
 function App() {
   return (
     <div className="App">
+
         <Home/>
        <Loanshome/>
         <Markets/>
