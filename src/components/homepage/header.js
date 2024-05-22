@@ -1,4 +1,9 @@
 import React from "react";
+
+
+// import logo from './logo.png';
+import { Link } from "react-router-dom";
+// import SearchIcon from '@mui/icons-material/Search';
 import logo from './logo.png'
 import { Link } from "react-router-dom";
 
@@ -18,7 +23,7 @@ function Header() {
             <div className="@apply w-4/5 flex justify-between">
                 <ul className="nav_list">
 
-                
+
 
                     <Link className="nav_list_iten" to="markets">Markets</Link>
                     <Link className="nav_list_iten" to="/loans">Loans</Link>
@@ -32,6 +37,7 @@ function Header() {
                 <div className="@apply flex justify-center items-center w-[30%]">
                     <div className="@apply w-4/5">
                         <input className=" @apply w-[95%] h-7 rounded-[10px_0_0_10px]" type="text" placeholder="search..."></input>
+
                     </div>
                     <button className="@apply w-1/5 bg-[rgb(60,201,60)] cursor-pointer rounded-[0_10px_10px_0]">
                         
