@@ -5,7 +5,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // import SearchIcon from '@mui/icons-material/Search';
 import logo from './logo.png'
-import { Link } from "react-router-dom";
+
 
 
 
@@ -30,6 +30,8 @@ function Header() {
                     <Link className="nav_list_iten" to="consultation ">Consultation</Link>
                     <Link className="nav_list_iten" to="cooperatives">Cooperatives</Link>
                     <Link className="nav_list_iten " to="Subsidy-application">Subsidy-application</Link>
+                    <Link className="nav_list_iten " to="login">Login</Link>
+                    <Link className="nav_list_iten " to="register">Register</Link>
 
                    
 

@@ -10,14 +10,14 @@ import SubsidyApplicationForm from './components/subsidy-application/subsidyAppl
 import Consultation from './components/consultation/consultation';
 import Cooperatives from './components/cooperatives/cooperative';
 
+import Login from './components/login/login';
+
 import Cooperativeform from './components/cooperatives/cooperativeform';
 
 
 const App = () => {
  
 
-
-import Login from './components/login/login';
 
  
   
@@ -29,8 +29,10 @@ import Login from './components/login/login';
         <Markets/>
      <Consultation/>
       <Cooperatives/>
-       <Cooperativeform  />
+       <Cooperativeform/>
         <SubsidyApplicationForm/>
+        <Login />
+        <Register/>
      
     </div>
   );
