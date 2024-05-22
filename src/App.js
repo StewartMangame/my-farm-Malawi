@@ -1,6 +1,5 @@
 import './App.css';
 import Home from './components/homepage/home';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Loans from './components/loans/loans';
 import Markets from './components/markets/markets';
 import SubsidyApplicationForm from './components/subsidy-application/subsidyApplicationForm';
@@ -12,17 +11,13 @@ function App() {
   return (
     <div className="App">
       
-      <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path='loans' element={<Loans/>}/>
-        <Route path="markets" element={<Markets/>}/>
-        <Route path="consultation" element={<Consultation/>}/>
-        <Route path="cooperatives" element={<Cooperatives/>}/>
-        <Route path="subsidy-application" element={<SubsidyApplicationForm/>}/>
-      </Routes>
+        <Home/>
+        <Loans/>
+        <Markets/>
+        <Consultation/>
+        <Cooperatives/>
+        <SubsidyApplicationForm/>
       
-      </BrowserRouter>
     </div>
   );
 }
