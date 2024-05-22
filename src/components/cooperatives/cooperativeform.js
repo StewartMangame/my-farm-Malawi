@@ -59,7 +59,7 @@ const Cooperativeform = ({ onAddCooperative }) => {
           />
         </div>
         <div className="form-group mb-4">
-          <label htmlFor="aim" className="block mb-2 font-bold text-left">Cholinga:</label>
+          <label htmlFor="aim" className="block mb-2 font-bold text-left">Aim of Cooperative:</label>
           <textarea 
             name="aim"
             id="aim"
@@ -70,7 +70,7 @@ const Cooperativeform = ({ onAddCooperative }) => {
           />
         </div>
         <div className="form-group mb-4">
-          <label htmlFor="structure" className="block mb-2 font-bold text-left">Type of Cooperative:</label>
+          <label htmlFor="structure" className="block mb-3 font-bold text-left">Type of Cooperative:</label>
           <select 
             name="structure" 
             id="structure" 
@@ -79,7 +79,7 @@ const Cooperativeform = ({ onAddCooperative }) => {
             required
             className="w-full p-2 border border-gray-300 rounded-md"
           >
-            <option value="">Sankhani mwa imodz</option>
+            <option value="">Choose an option</option>
             <option value="democratic">A cassava growing Cooperative</option>
             <option value="worker">Legume Production based Cooperative</option>
             <option value="consumer">Housing Cooperative</option>
