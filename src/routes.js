@@ -18,5 +18,14 @@ const router = createBrowserRouter([
 path:"/loanshome",
 element:<Loanshome/>
 
-}])
+},
+   {
+        path: '/',
+        element: <Login/>
+    },
+    {
+        path: '/register',
+        element: <Register/>
+    },])
+
 export default router;

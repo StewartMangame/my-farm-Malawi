@@ -5,10 +5,12 @@ import Markets from './components/markets/markets';
 import SubsidyApplicationForm from './components/subsidy-application/subsidyApplicationForm';
 import Consultation from './components/consultation/consultation';
 import Cooperatives from './components/cooperatives/cooperative';
+import Login from './components/login/login';
 
 function App() {
   return (
     <div className="App">
+
         <Home/>
        <Loans/>
         <Markets/>
