@@ -4,7 +4,7 @@ import Slideshow from '../slider/slider'
 
 export default function Home1() {
   return (
-    <div>
+    <div className="font-Roboto">
       
       <div className='@apply bg-[rgb(226,214,214)]'>
       <h1 className=' @apply text-[green] font-bold text-[large] m-0 p-0'>LATEST NEWS</h1>

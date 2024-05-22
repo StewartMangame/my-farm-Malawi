@@ -6,7 +6,7 @@ import Home1 from '../pages/home1'
 
 export default function Home() {
   return (
-    <div>
+    <div className="font-Roboto">
       <Header/>
       <About/>
       <AboutD/>
