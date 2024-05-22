@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import Marketlist from "../markets/marketslist";
+import Footer from "../homepage/footer";
+import Header from "../homepage/header";
 
-export default function Markets() {
+const Markets = () => {
   return (
-    <div>
-      <p>markets</p>
+    <div className="bg-gray-300">
+      <Header />
+      <Marketlist />
+      <Footer />
     </div>
-  )
-}
+  );
+};
+export default Markets;
