@@ -25,7 +25,7 @@ function Header() {
 
                     <Link className="nav_list_iten" to="markets">Markets</Link>
                     <Link className="nav_list_iten" to="/loans">Loans</Link>
-                    <Link className="nav_list_iten" to="consultation ">Consultation</Link>
+                    <Link className="nav_list_iten" to="consultation">Consultation</Link>
                     <Link className="nav_list_iten" to="cooperatives">Cooperatives</Link>
                     <Link className="nav_list_iten " to="Subsidy-application">Subsidy-application</Link>
                     <Link className="nav_list_iten " to="login">Login</Link>
@@ -47,8 +47,8 @@ function Header() {
             </div>
 
         </div>
-      </div>
-    </div>
+        
+      
   );
 }
 export default Header;

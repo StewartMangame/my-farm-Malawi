@@ -12,7 +12,7 @@ import Consultation from './components/consultation/bookingForm';
 import LandingPage from './components/consultation/consultation';
 
 
-import Login from './components/login/login';
+//import Login from './components/login/login';
 
 import Cooperativeform from './components/cooperatives/cooperativeform';
 
@@ -33,8 +33,8 @@ const App = () => {
       <Cooperatives/>
        <Cooperativeform/>
         <SubsidyApplicationForm/>
-        <Login />
-        <Register/>
+        {/* <Login />
+        <Register/> */}
      
     </div>
   );
