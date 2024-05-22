@@ -1,6 +1,9 @@
 import React from "react";
-import logo from './logo.png';
-import { NavLink } from "react-router-dom";
+
+import './header.css';
+// import logo from './logo.png';
+import { Link } from "react-router-dom";
+
 // import SearchIcon from '@mui/icons-material/Search';
 
 
@@ -16,11 +19,14 @@ function Header() {
             <div className="@apply w-4/5 flex justify-between">
                 <ul className="nav_list">
                 
-                    <NavLink className="@apply no-underline text-[black] font-medium ml-[1em]" to="markets">Markets</NavLink>
-                    <NavLink className="@apply no-underline text-[black] font-medium ml-[1em]" to="loans">Loans</NavLink>
-                    <NavLink className="@apply no-underline text-[black] font-medium ml-[1em]" to="consultation ">Consultation</NavLink>
-                    <NavLink className="@apply no-underline text-[black] font-medium ml-[1em]" to="cooperatives">Cooperatives</NavLink>
-                    <NavLink className="@apply no-underline text-[black] font-medium ml-[1em]" to="Subsidy-application">Subsidy-application</NavLink>
+
+                    <Link className="nav_list_iten" to="markets">Markets</Link>
+                    <Link className="nav_list_iten" to="/loanshome">Loans</Link>
+                    <Link className="nav_list_iten" to="consultation ">Consultation</Link>
+                    <Link className="nav_list_iten" to="cooperatives">Cooperatives</Link>
+                    <Link className="nav_list_iten " to="Subsidy-application">Subsidy-application</Link>
+
+                   
                 </ul>
                 <div className="@apply flex justify-center items-center w-[30%]">
                     <div className="@apply w-4/5">
