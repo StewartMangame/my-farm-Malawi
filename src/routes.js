@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
-import ConsultationPage from "./components/consultation/bookingForm.js"
-import LandingPage from "./components/consultation/consultation.js";
+import Consultation from "./components/consultation/consultation.js"
 import Home from "./components/homepage/home.js"
+import ConsultationPage from './components/consultation/bookingForm.js';
 
 const router = createBrowserRouter([
 {
@@ -9,13 +9,14 @@ const router = createBrowserRouter([
     element: <Home/>
 },
 {
-    path:"/booking",
-    element:<ConsultationPage/>
+    path:"/consultation",
+    element:<Consultation/>
 },
 {
-    path:"/landingpange",
-    element:<LandingPage/>
+    path:"/booking",
+    element:<ConsultationPage/>
 }
+
 ]);
 
 export default router; 

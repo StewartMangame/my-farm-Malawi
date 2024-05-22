@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const LandingPage = () => {
+const Consultation = () => {
   return (
     <div
       className="bg-cover bg-image: h-screen w-screen bg-image:object-cover"
@@ -10,14 +10,14 @@ const LandingPage = () => {
       }}
     >
       <div className="flex-grow flex flex-col justify-center items-center p-[15%]">
-        <h1 className="text-5xl font-bold text-black mb-4">
+        <h1 className="text-5xl font-bold text-green-900">
           Consult different Agricultural Expert Here
         </h1>
-        <p className="text-xl text-black mb-8">
+        <p className="text-xl text-gray-800 text-bold mb-8">
           find expert consultants for your agriculture projects <br />
           more than 100 freelance top agriculture experts available
         </p>
-        <p className="text-black mb-12">
+        <p className="text-xl text-green-500 text-bold mb-12">
           different agriculture expert are aavailable here free free to consult
           any field you will get assisted <br />
           every problem has solution just seak help to relavant people
@@ -41,4 +41,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default Consultation;
