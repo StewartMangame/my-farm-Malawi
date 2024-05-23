@@ -15,7 +15,7 @@ const Loanshome=()=>{
 <p>The nation of Malawi plc opens a window for farmers</p>
 <p>The bank is offering loans to its citizens at a fair</p>
 <p>and affordable .......</p>
-<button className="mt-2 bg-blue-300 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-30">
+<button className="mt-2 bg-green-500 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-blue-300 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-30">
 <Link to="/loans" >
     visit &gt;</Link> 
     </button>
@@ -35,14 +35,14 @@ const Loanshome=()=>{
 <p>The NBS Bank plc has acquire a 10-year Five</p>
 <p>million US dollar loan from the international Fund for</p>
 <p>Agriculture Development(IFAD)to enable farmers improve there productivity in malawi....</p>
-<button className="mt-2 bg-blue-300 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-30">
+<button className="mt-2 bg-green-500 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-blue-300 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-30">
 <Link to="/loans" >
     visit  &gt; </Link> 
     </button>
     </div>
 
 
-
+ 
 <div w-100 h-90>
     <img src="https://th.bing.com/th/id/OIP.pePcKGGA2nMcrYCNZ0s6oAHaFU?rs=1&pid=ImgDetMain" alt="NBS Bank Loans"></img>
 </div>
