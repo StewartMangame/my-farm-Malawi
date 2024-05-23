@@ -5,26 +5,27 @@ import Footer from "../homepage/footer";
 
 const Consultation = () => {
   return (
-    <div className="bg-gray-300"
+    <div>
+      <Header />
     
-      // className="bg-cover bg-image: h-screen w-screen bg-image:object-cover"
-      // style={{
-      //   backgroundImage: `URL(https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,backgroundSize:'cover',backgroundPosition: 'center'
-      // }}
+    <div
+      className="bg-cover bg-image: h-screen w-screen bg-image:object-cover"
+      style={{
+        backgroundImage: `URL(https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
-      <Header/>
-      <div className="flex-grow flex flex-col justify-center items-center pb-[10%]">
-        <h1 className="text-5xl font-bold text-green-900">
-          Consult different Agricultural Expert Here
-        </h1>
-        <p className="text-xl text-gray-800 text-bold mb-8">
-          find expert consultants for your agriculture projects <br />
-          more than 100 freelance top agriculture experts available
+      
+      <div className="flex-grow flex flex-col justify-center items-center pt-[5%]">
+        <h2 className="text-5xl font-bold text-green-500 text-center">
+        CONSULT AGRICULTURAL EXPERTS 
+        </h2>
+        <p className="text-xl text-black font-bold mb-8 text-center pl-[10%] pr-[10%] pt-[8%]">
+        Welcome, Farmers! Seeking expert guidance for your agricultural ventures? You've come to the right place. Our platform connects you with top-notch freelance consultants who can assist you with any aspect of your farming operations. Whether you need advice on crop management, soil analysis, pest control, or anything else, our knowledgeable experts are here to help. Feel at home and let's work together to ensure the success of your farming projects."
         </p>
         <p className="text-xl text-green-500 text-bold mb-12">
-          different agriculture expert are aavailable here free free to consult
-          any field you will get assisted <br />
-          every problem has solution just seak help to relavant people
+          
         </p>
         <div className="flex space-x-4">
           <Link to="/booking">
@@ -32,17 +33,12 @@ const Consultation = () => {
               Book appointment
             </button>
           </Link>
-          <Link to="#">
-            <button className="bg-gray-200 text-gray-800 px-6 py-3 rounded-md hover:bg-gray-300">
-              Search for Experts
-            </button>
-          </Link>
         </div>
       </div>
-      <Footer/>
+     
     </div>
-
-  
+    <Footer />
+    </div>
   );
 };
 
