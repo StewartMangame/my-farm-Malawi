@@ -1,15 +1,12 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
 // import SearchIcon from '@mui/icons-material/Search';
-import logo from './logo.png'
-
+// import logo from './logo.png'
 
 
 
 
 function Header() {
-  
     return (
         <div className="@apply flex justify-between items-center text-center bg-[rgb(226,214,214)] mb-[2px_solid_green] px-[1%]">
             <div className="@apply w-[10%] flex items-center justify-between">
