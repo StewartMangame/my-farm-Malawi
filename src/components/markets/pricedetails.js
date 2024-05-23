@@ -26,8 +26,8 @@ const Productdetails = () => {
       <table className="w-full bg-gray-300 rounded-lg shadow-md">
         <thead>
           <tr className="bg-[green]">
-            <th className="py-2 px-4 text-left">Product Name</th>
-            <th className="py-2 px-4 text-left">Price</th>
+            <th className="py-2 px-4 text-left">Product Name:</th>
+            <th className="py-2 px-4 text-left">Price:</th>
           </tr>
         </thead>
         <tbody>
