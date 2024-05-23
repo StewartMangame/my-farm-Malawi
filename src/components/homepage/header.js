@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 
 
+
 function Header() {
     return (
         <div className="@apply flex justify-between items-center text-center bg-[rgb(226,214,214)] mb-[2px_solid_green] px-[1%]">
@@ -16,6 +17,7 @@ function Header() {
             </div>
             <div className="@apply w-4/5 flex justify-between">
                 <ul className="nav_list">
+
                 
 
                     <Link className="nav_list_iten" to="markets">Markets</Link>
@@ -25,7 +27,8 @@ function Header() {
                     <Link className="nav_list_iten " to="Subsidy-application">Subsidy-application</Link>
 
                    
-                </ul>
+
+                     </ul>
                 <div className="@apply flex justify-center items-center w-[30%]">
                     <div className="@apply w-4/5">
                         <input className=" @apply w-[95%] h-7 rounded-[10px_0_0_10px]" type="text" placeholder="search..."></input>

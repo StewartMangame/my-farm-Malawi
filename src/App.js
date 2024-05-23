@@ -12,9 +12,10 @@ function App() {
         <Home/>
        <Loans/>
         <Markets/>
-      <Consultation/>
-      <Cooperatives/>
-      <SubsidyApplicationForm/>
+        <Consultation/>
+        <Cooperatives/>
+        <SubsidyApplicationForm/>
+      
     </div>
   );
 }

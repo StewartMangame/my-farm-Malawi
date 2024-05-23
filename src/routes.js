@@ -3,8 +3,7 @@ import Home from "./components/homepage/home";
 import Loans from "./components/loans/loans";
 import Loanshome from "./components/loans/loanshome";
 
-
-const router=createBrowserRouter([
+const router = createBrowserRouter([
     {
         path:"/",
         element:<Home />
