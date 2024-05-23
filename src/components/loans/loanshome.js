@@ -6,12 +6,12 @@ const Loanshome=()=>{
     <div className="bg-gray-300" >
 <div>
     
-<h1 className="text-4xl font-bold p-4 text-center text-4xl">Loans</h1>
+<h1 className="text-4xl font-bold p-4 text-center text-4xl underline underline-offset-8 text-green-600">Loans</h1>
 </div>
 <div  className="bg-white p-4 rounded-lg shadow-md flex flex-row items-center">
 <div className="flex-1 text-2xl">
 
-<p>National bank of malawi</p>
+<p className="text-3xl">National bank of malawi</p>
 <p>The nation of Malawi plc opens a window for farmers</p>
 <p>The bank is offering loans to its citizens at a fair</p>
 <p>and affordable .......</p>
@@ -31,7 +31,7 @@ const Loanshome=()=>{
 
 <div className="bg-white p-4 rounded-lg shadow-md flex flex-row items-center">
     <div className="flex-1 text-2xl">
-<p>NBS Bank plc</p>
+<p className="text-3xl">NBS Bank plc</p>
 <p>The NBS Bank plc has acquire a 10-year Five</p>
 <p>million US dollar loan from the international Fund for</p>
 <p>Agriculture Development(IFAD)to enable farmers improve there productivity in malawi....</p>
@@ -43,7 +43,7 @@ const Loanshome=()=>{
 
 
 
-<div>
+<div w-100 h-90>
     <img src="https://th.bing.com/th/id/OIP.pePcKGGA2nMcrYCNZ0s6oAHaFU?rs=1&pid=ImgDetMain" alt="NBS Bank Loans"></img>
 </div>
 </div>

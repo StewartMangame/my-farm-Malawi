@@ -62,7 +62,7 @@ const Loans = () => {
             </div>
            <a href='https://ebrary.ifpri.org/digital/collection/p15738coll2/id/136709/#:~:text=Primary%20agricultural%20cooperatives%20in%20Malawi%2C%20in%20contrast%20to%20other%20farmer,the%20profit%20of%20their%20members.'> <button className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-md cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-80">Apply now</button></a>
           </div>
-          <div className="w-100 h-70">
+          <div className="h-70 w-100">
             <img src="https://th.bing.com/th/id/OIP.tGTVnwrTjJ-3kyhWgKnRzgHaEo?w=299&h=186&c=7&r=0&o=5&pid=1.7" alt="Money Loan" className="w-full h-full object-cover rounded-md "/>
           </div>
         </div>
