@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Header from "../homepage/header";
+import Footer from "../homepage/footer";
 
 const Loans=()=>{
     return(
     <div className="bg-gray-300" >
+        <Header/>
 <div>
     
 <h1 className="text-4xl font-bold p-4 text-center text-4xl underline underline-offset-8 text-green-600">Loans</h1>
@@ -48,7 +51,7 @@ const Loans=()=>{
 </div>
 </div>
 
-
+<Footer/>
 </div>
 )}
 export default Loans;

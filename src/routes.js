@@ -10,6 +10,7 @@ import Farmersworld from "./components/markets/farmersworld.js";
 import Productdetails from "./components/markets/pricedetails.js";
 import Consultation from "./components/consultation/consultation.js"
 import ConsultationPage from './components/consultation/bookingForm.js';
+import Markets from "./components/markets/markets.js";
 
 const router = createBrowserRouter([
   {
@@ -18,29 +19,29 @@ const router = createBrowserRouter([
   },
   {
     path: "/cooperatives",
-    element: <Cooperatives />,
+    element: <Cooperatives/>,
   },
   {
     path: "/cooperativeform",
-    element: <Cooperativeform />,
+    element: <Cooperativeform/>,
   },
   {
     path: "/admarc",
     element: <Admarc />,
   },
+  {
+    path: "/markets",
+    element: <Markets />,
+  },
 
-  // const router = createBrowserRouter([
-  //     {
-  //         path:"/",
-  //         element:<Home />
-{
-    path:"/consultation",
-    element:<Consultation/>
-},
-{
-    path:"/booking",
-    element:<ConsultationPage/>
-},
+  {
+    path: "/consultation",
+    element: <Consultation/>,
+  },
+  {
+    path: "/booking",
+    element: <ConsultationPage />,
+  },
 
   {
     path: "/loans",
@@ -69,9 +70,9 @@ const router = createBrowserRouter([
   //     {
   //         path: '/register',
   //         element: <Register/>
-//    {
-//        
-    ]);
+  //    {
+  //
+]);
 
 
 

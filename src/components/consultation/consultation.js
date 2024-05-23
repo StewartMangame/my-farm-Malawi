@@ -1,14 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Header from "../homepage/header";
+import Footer from "../homepage/footer";
 
 const Consultation = () => {
   return (
     <div
+    
       className="bg-cover bg-image: h-screen w-screen bg-image:object-cover"
       style={{
         backgroundImage: `URL(https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,backgroundSize:'cover',backgroundPosition: 'center'
       }}
     >
+      <Header/>
       <div className="flex-grow flex flex-col justify-center items-center p-[15%]">
         <h1 className="text-5xl font-bold text-green-900">
           Consult different Agricultural Expert Here
@@ -35,6 +39,7 @@ const Consultation = () => {
           </Link>
         </div>
       </div>
+      <Footer/>
     </div>
 
   

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Header from '../homepage/header';
+import Footer from '../homepage/footer';
 
 
 
@@ -20,6 +22,7 @@ const Cooperatives = () => {
 
   return (
     <div className="Cooperative-page bg-gray-300 min-h-screen p-4">
+      <Header/>
       <header className="cooperative-header bg-green-500 text-white p-4">
         <h1 className="text-8xl text-center text-black font-bold">Cooperatives</h1>
       </header>
@@ -66,6 +69,7 @@ const Cooperatives = () => {
           <p>Number of Members: {selectedCooperative.numMembers}</p></div>
        
       )}
+      <Footer/>
     </div>
   );
 };
