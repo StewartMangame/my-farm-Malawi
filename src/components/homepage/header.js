@@ -8,7 +8,7 @@ function Header() {
     <div className="@apply flex justify-between items-center text-center bg-[rgb(226,214,214)] mb-[2px_solid_green] px-[1%]">
       <div className="@apply w-[10%] flex items-center justify-between">
         <div className="logo_container_image">
-          <Link to ="/"><img className="@apply w-[70px] h-11" src={logo} alt="logo" /></Link>
+          <Link to ="/home"><img className="@apply w-[70px] h-11" src={logo} alt="logo" /></Link>
         </div>
         <p>
           My <span className="@apply text-[green] font-bold">Farm</span>
