@@ -17,7 +17,7 @@ const Login=() =>{
     return(
         
         <div className="flex flex-col bg-green-500 gap-4 justify-center h-screen">
-            <div className="flex-grow: 1 pt-[1%] pl-[5%] pl-[33%] flex inline-block">
+            <div className="flex-grow: 1 pt-[1%] pl-[33%] flex inline-block">
             {" "}
             <img
               src={logo}

@@ -30,7 +30,7 @@ const Cooperativeform = ({ onAddCooperative }) => {
   return (
     <div className="bg-green-500 " >
     
-    <div className="bg-green-500 border border-gray-300 rounded-md p-5 mx-auto my-5 max-w-lg ">
+    <div className="bg-gray-50 border border-gray-300 rounded-md p-5 mx-auto my-5 max-w-lg ">
       <header className="text-center mb-5">
         <h1 className="text-3xl font-bold">Cooperative Registration</h1>
       </header>
