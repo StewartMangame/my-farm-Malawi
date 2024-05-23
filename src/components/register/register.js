@@ -1,5 +1,6 @@
 
 import React,{ useState } from "react";
+import { Link } from "react-router-dom";
 
 const Register =()=>{
     const [firstname,setfirstname]=useState('');
@@ -37,9 +38,10 @@ return(
                     <label htmlFor="password" id="passwordlabel" className="text-lg">Password <span className="text-red-700">*</span></label>
                     <input type="password" name="password" id="password" placeholder="Enter password" className="rounded-1xl py-2 border border-black "value={password} onChange={(event)=>setPassword(event.target.value)}  />
 
+                    <Link to="/home">
                     <button type="submit" className="bg-orange-500 hover:bg-orange-700  text-white font-hold py-2 px-2 rounded">
                         Join securely
-                    </button>
+                    </button></Link>
                     <div><p>By proceeding to open an account: i accept My Farm <strong>Terms and conditions.</strong> i have read and understood My Farm <strong>Privacy policy & cookies Policy</strong> as published on the site and confirm iam 18 years of age or over.</p></div>
                 </form>
             </div>
