@@ -25,16 +25,16 @@ function Header() {
           <Link className="nav_list_iten" to="/consultation">
             Consultation
           </Link>
-          <Link className="nav_list_iten" to="cooperatives">
+          <Link className="nav_list_iten" to="/cooperatives">
             Cooperatives
           </Link>
-          <Link className="nav_list_iten " to="Subsidy-application">
+          <Link className="nav_list_iten " to="/Subsidy-application">
             Subsidy-application
           </Link>
-          <Link className="nav_list_iten " to="login">
+          <Link className="nav_list_iten " to="/login">
             Login
           </Link>
-          <Link className="nav_list_iten " to="register">
+          <Link className="nav_list_iten " to="/register">
             Register
           </Link>
         </ul>
