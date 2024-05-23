@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "./components/homepage/home";
-import Loanshome from "./components/loans/loanshome";
 import Loans from "./components/loans/loans";
+import Loanshome from "./components/loans/loanshome";
 
 
 const router=createBrowserRouter([
@@ -12,12 +12,12 @@ const router=createBrowserRouter([
 
 },
 {
-    path:"/loanshome",
-    element:<Loanshome />
+    path:"/loans",
+    element:<Loans />
 },
 {
-path:"/loans",
-element:<Loans/>
+path:"/loanshome",
+element:<Loanshome/>
 
 }])
 export default router;

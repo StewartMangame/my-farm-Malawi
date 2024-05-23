@@ -1,10 +1,8 @@
 import React from "react";
-
-import './header.css';
-// import logo from './logo.png';
+import logo from './logo.png'
 import { Link } from "react-router-dom";
 
-// import SearchIcon from '@mui/icons-material/Search';
+
 
 
 function Header() {
@@ -21,7 +19,7 @@ function Header() {
                 
 
                     <Link className="nav_list_iten" to="markets">Markets</Link>
-                    <Link className="nav_list_iten" to="/loanshome">Loans</Link>
+                    <Link className="nav_list_iten" to="/loans">Loans</Link>
                     <Link className="nav_list_iten" to="consultation ">Consultation</Link>
                     <Link className="nav_list_iten" to="cooperatives">Cooperatives</Link>
                     <Link className="nav_list_iten " to="Subsidy-application">Subsidy-application</Link>
@@ -33,7 +31,7 @@ function Header() {
                         <input className=" @apply w-[95%] h-7 rounded-[10px_0_0_10px]" type="text" placeholder="search..."></input>
                     </div>
                     <button className="@apply w-1/5 bg-[rgb(60,201,60)] cursor-pointer rounded-[0_10px_10px_0]">
-                        {/* <SearchIcon /> */}
+                        
                     </button>
                 </div>
 
