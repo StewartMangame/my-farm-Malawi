@@ -11,6 +11,7 @@ import Productdetails from "./components/markets/pricedetails.js";
 import Consultation from "./components/consultation/consultation.js"
 import ConsultationPage from './components/consultation/bookingForm.js';
 import Markets from "./components/markets/markets.js";
+import SubsidyApplication from "./components/subsidy-application/subsidyApplicationForm.js";
 
 const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
   {
     path: "/pricedetails",
     element: <Productdetails />,
+  },
+  {
+    path: "/subsidy-application",
+    element: <SubsidyApplication/>,
   },
   //    {
   //         path: '/login',

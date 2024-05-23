@@ -54,8 +54,8 @@ const Cooperatives = () => {
             </div>
           ))}
         </div>
-        <div className='flex justify-center items-center mt-4' >
-        <Link to="/cooperativeform" className="register-button mt-4 inline-block bg-orange-500 text-black py-2 px-4 rounded ">
+        <div className='flex justify-center items-center mt-4 pb-[2%]' >
+        <Link to="/cooperativeform" className="register-button mt-4 inline-block bg-orange-500  text-black py-2 px-4 rounded ">
           Register New Cooperative
         </Link> 
         </div>
