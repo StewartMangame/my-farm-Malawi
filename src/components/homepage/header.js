@@ -8,7 +8,7 @@ function Header() {
     <div className="@apply flex justify-between items-center text-center bg-[rgb(226,214,214)] mb-[2px_solid_green] px-[1%]">
       <div className="@apply w-[10%] flex items-center justify-between">
         <div className="logo_container_image">
-          <img className="@apply w-[70px] h-11" src={logo} alt="logo" />
+          <Link to ="/"><img className="@apply w-[70px] h-11" src={logo} alt="logo" /></Link>
         </div>
         <p>
           My <span className="@apply text-[green] font-bold">Farm</span>
@@ -16,19 +16,19 @@ function Header() {
       </div>
       <div className="@apply w-4/5 flex justify-between">
         <ul className="flex space-x-4">
-          <Link className="hover:text-green-500" to="/markets">
+          <Link className="hover:text-green-500 font-bold" to="/markets">
             Markets
           </Link>
-          <Link className="hover:text-green-500" to="/loans">
+          <Link className="hover:text-green-500 font-bold" to="/loans">
             Loans
           </Link>
-          <Link className="hover:text-green-500" to="/consultation">
+          <Link className="hover:text-green-500 font-bold" to="/consultation">
             Consultation
           </Link>
-          <Link className="hover:text-green-500" to="/cooperatives">
+          <Link className="hover:text-green-500 font-bold" to="/cooperatives">
             Cooperatives
           </Link>
-          <Link className="hover:text-green-500 " to="/Subsidy-application">
+          <Link className="hover:text-green-500 font-bold" to="/Subsidy-application">
             Subsidy-application
           </Link>
           {/* <Link className="hover:text-green-500 " to="/login">
