@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
+import Header from "../homepage/header";
 
 
 
@@ -28,7 +29,8 @@ const Cooperativeform = ({ onAddCooperative }) => {
 
   return (
     <div className="bg-green-500 " >
-    <div className="bg-green-500 border border-gray-300 rounded-md p-5 mx-auto my-5 max-w-lg ">
+    
+    <div className="bg-gray-50 border border-gray-300 rounded-md p-5 mx-auto my-5 max-w-lg ">
       <header className="text-center mb-5">
         <h1 className="text-3xl font-bold">Cooperative Registration</h1>
       </header>
@@ -101,7 +103,7 @@ const Cooperativeform = ({ onAddCooperative }) => {
         <div className="flex justify-center items-center">
         <button 
           type="submit" 
-          className="bg-orange-500 text-black py-2 px-5 border-none rounded-md w-full cursor-pointer text-center"
+          className="bg-[orange] text-black py-2 px-5 border-none rounded-md w-full cursor-pointer text-center"
         >
           Register
         </button></div>
