@@ -27,10 +27,12 @@ const Login=() =>{
                 className=" border border-black rounded-1xl py-2" />
                 </label>
                 <div className=' flex justify-center hover:underline'> Forgot password?</div>
+                <Link to="/home">
                 <button type="submit" className=" flex flex-col w-[500px] items-center bg-orange-500 hover:bg-orange-700 text-black font-hold py-2 px-2
                  rounded">
                     Login
                 </button>
+                </Link>
                 { error &&(
                         <p className="text-red-500 text-sm ">{error}</p>
                     )}
