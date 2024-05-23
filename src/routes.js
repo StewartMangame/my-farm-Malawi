@@ -8,6 +8,8 @@ import Admarc from "./components/markets/admarcproducts.js";
 import EtgProducts from "./components/markets/etgproducts.js";
 import Farmersworld from "./components/markets/farmersworld.js";
 import Productdetails from "./components/markets/pricedetails.js";
+import Consultation from "./components/consultation/consultation.js"
+import ConsultationPage from './components/consultation/bookingForm.js';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +33,14 @@ const router = createBrowserRouter([
   //     {
   //         path:"/",
   //         element:<Home />
+{
+    path:"/consultation",
+    element:<Consultation/>
+},
+{
+    path:"/booking",
+    element:<ConsultationPage/>
+},
 
   {
     path: "/loans",
@@ -59,6 +69,10 @@ const router = createBrowserRouter([
   //     {
   //         path: '/register',
   //         element: <Register/>
-]);
+//    {
+//        
+    ]);
+
+
 
 export default router;
