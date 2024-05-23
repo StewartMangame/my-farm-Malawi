@@ -12,11 +12,21 @@ import Consultation from "./components/consultation/consultation.js"
 import ConsultationPage from './components/consultation/bookingForm.js';
 import Markets from "./components/markets/markets.js";
 import SubsidyApplication from "./components/subsidy-application/subsidyApplicationForm.js";
+import Login from "./components/login/login.js";
+import Register from "./components/register/register.js";
 
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <Login />,
+  },
+  {
+    path: "/home",
     element: <Home />,
+  },
+  {
+    path: "/register",
+    element: <Register />,
   },
   {
     path: "/cooperatives",

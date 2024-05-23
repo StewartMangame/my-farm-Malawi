@@ -8,6 +8,7 @@ import SubsidyApplicationForm from './components/subsidy-application/subsidyAppl
 import Cooperatives from './components/cooperatives/cooperative';
 import Consultation from './components/consultation/bookingForm';
 import LandingPage from './components/consultation/consultation';
+import Login from "./components/login/login";
 
 
 //import Login from './components/login/login';
@@ -18,7 +19,7 @@ const App = () => {
   return (
     <div className="App">
 
-
+        <Login/>
         <Home/>
         <Loans/>
         <Markets/>
