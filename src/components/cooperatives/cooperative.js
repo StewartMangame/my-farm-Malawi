@@ -21,8 +21,10 @@ const Cooperatives = () => {
   };
 
   return (
-    <div className="Cooperative-page bg-gray-300 min-h-screen p-4">
+    <div>
       <Header/>
+    <div className="Cooperative-page bg-gray-300 min-h-screen p-4">
+      
       <header className="cooperative-header bg-green-500 text-white p-4">
         <h1 className="text-8xl text-center text-black font-bold">Cooperatives</h1>
       </header>
@@ -55,7 +57,7 @@ const Cooperatives = () => {
           ))}
         </div>
         <div className='flex justify-center items-center mt-4 pb-[2%]' >
-        <Link to="/cooperativeform" className="register-button mt-4 inline-block bg-orange-500  text-black py-2 px-4 rounded ">
+        <Link to="/cooperativeform" className="register-button mt-4 inline-block bg-[orange]  text-black py-2 px-4 rounded ">
           Register New Cooperative
         </Link> 
         </div>
@@ -69,7 +71,9 @@ const Cooperatives = () => {
           <p>Number of Members: {selectedCooperative.numMembers}</p></div>
        
       )}
-      <Footer/>
+      
+    </div>
+    <Footer/>
     </div>
   );
 };
