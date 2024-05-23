@@ -15,28 +15,28 @@ function Header() {
         </p>
       </div>
       <div className="@apply w-4/5 flex justify-between">
-        <ul className="nav_list">
-          <Link className="nav_list_iten" to="/markets">
+        <ul className="flex space-x-4">
+          <Link className="hover:text-green-500" to="/markets">
             Markets
           </Link>
-          <Link className="nav_list_iten" to="/loans">
+          <Link className="hover:text-green-500" to="/loans">
             Loans
           </Link>
-          <Link className="nav_list_iten" to="/consultation">
+          <Link className="hover:text-green-500" to="/consultation">
             Consultation
           </Link>
-          <Link className="nav_list_iten" to="/cooperatives">
+          <Link className="hover:text-green-500" to="/cooperatives">
             Cooperatives
           </Link>
-          <Link className="nav_list_iten " to="/Subsidy-application">
+          <Link className="hover:text-green-500 " to="/Subsidy-application">
             Subsidy-application
           </Link>
-          <Link className="nav_list_iten " to="/login">
+          {/* <Link className="hover:text-green-500 " to="/login">
             Login
           </Link>
-          <Link className="nav_list_iten " to="/register">
+          <Link className="hover:text-green-500 " to="/register">
             Register
-          </Link>
+          </Link> */}
         </ul>
         <div className="@apply flex justify-center items-center w-[30%]">
           <div className="@apply w-4/5">
