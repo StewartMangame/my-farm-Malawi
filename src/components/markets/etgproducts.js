@@ -4,7 +4,7 @@ import Footer from "../homepage/footer";
 
 const EtgProducts = () => {
   return (
-    <div>
+    <div className="bg-[lightgray]">
       <div className="bg-[white]">
         <NavLink to="https://www.etgworld.com/farm-extension-services-malawi.html">
           <img
@@ -66,7 +66,7 @@ const EtgProducts = () => {
 
               <div className="p-[1em]">
                 <img
-                  src="https://images.pexels.com/photos/20525952/pexels-photo-20525952/free-photo-of-armyworm-in-pepper.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  src="https://th.bing.com/th/id/OIP.D6xBYqsWyNe_tFmkZiwfcQAAAA?w=400&h=400&rs=1&pid=ImgDetMain"
                   alt="Pesticides"
                   className="w-full h-[250px] object-cover"
                 />
@@ -85,7 +85,7 @@ const EtgProducts = () => {
 
               <div className="p-[1em]">
                 <img
-                  src="https://storage.googleapis.com/ezyagric-media/image/dk.png"
+                  src="https://th.bing.com/th/id/OIP.66PyKPJARfanBitM7uvzywHaEZ?rs=1&pid=ImgDetMain"
                   alt="Hybrid maize seeds"
                   className="w-full h-[250px] object-cover"
                 />

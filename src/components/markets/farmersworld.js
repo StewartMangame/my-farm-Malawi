@@ -4,7 +4,7 @@ import Footer from "../homepage/footer";
 
 const Farmersworld = () => {
   return (
-    <div>
+    <div className="bg-[lightgray]">
       <div className="bg-[white]">
         <div className="bg-white">
           <NavLink to="https://www.malawiyp.com/company/207/Farmers_World">

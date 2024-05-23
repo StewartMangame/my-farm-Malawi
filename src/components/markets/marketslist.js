@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Marketlist = () => {
   return (
     <div>
-      <div className="h-[60vh] relative bg-[green]">
+      <div className="h-[70vh] relative bg-[green]">
         <div style={{ height: "100%" }}>
           <img
             src="https://scontent.fblz1-1.fna.fbcdn.net/v/t39.30808-6/407313250_917556193420404_2395591532201109262_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGuZID_R85c7AFld1umqi3ude0ILaJF9nt17QgtokX2e2yYaYspPZqebe8dMY3XRUN2DfWyU0B4pDeaQ7WGLrf-&_nc_ohc=dperfPRAFIIQ7kNvgF9QRoh&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fblz1-1.fna&oh=00_AYCKz5TDSqg1Qw0fMESEOqS9Bl1SJbLZ8lXholxRFsZ7bQ&oe=6652CAEB"
@@ -52,8 +52,8 @@ const Marketlist = () => {
           </NavLink>
         </div>
 
-        <div className="bg-gray-300 justify-center pl-[42%] pt-[5%] p-[2em]">
-          <div className="bg-orange-500 border w-[200px] h-[60px] items-center rounded-[50%] border-solid border-[green]">
+        <div className="bg-gray-300 justify-center pl-[42%] pt-[3%] p-[1em]">
+          <div className="bg-[orange] border w-[200px] h-[60px] items-center rounded-[50%] border-solid border-[green] pt-[0%]">
             <NavLink to="/pricedetails">
               <div className="text-[green] font-[bold]">
                 <h1 className="text-center pt-[1em]">SELL YOUR PRODUCTS</h1>

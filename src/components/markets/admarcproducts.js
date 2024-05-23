@@ -4,7 +4,7 @@ import Footer from "../homepage/footer";
 
 const Admarc = () => {
   return (
-    <div>
+    <div className="bg-[lightgray]">
       <div className="bg-[white]">
         <div className="bg-white">
           <NavLink to="https://www.admarc.co.mw">
@@ -85,7 +85,7 @@ const Admarc = () => {
 
               <div className="p-[1em]">
                 <img
-                  src="https://th.bing.com/th/id/OIP.OMyCWuouHY_yHICzRK_GjwHaHa?w=1024&h=1024&rs=1&pid=ImgDetMain"
+                  src="https://th.bing.com/th/id/OIP.3nJfZiaLlfQebLlLoIvRrAHaFi?rs=1&pid=ImgDetMain"
                   alt="Tools and implements"
                   className="w-full h-[250px] object-cover"
                 />

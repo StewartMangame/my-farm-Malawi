@@ -2,14 +2,14 @@ import React from "react";
 
 const Productdetails = () => {
   const products = [
-    { name: "Chimanga", price: 2600 },
-    { name: "Mpunga", price: 2200 },
-    { name: "Nyemba", price: 3400 },
-    { name: "Chinangwa", price: 1800 },
-    { name: "Mtedza", price: 3400 },
-    { name: "Nandolo", price: 1500 },
-    { name: "Soya", price: 2800 },
-    { name: "Mawere", price: 800 },
+    { name: "Maize", price: 2600 },
+    { name: "Rice", price: 2200 },
+    { name: "Beans", price: 3400 },
+    { name: "Cassava", price: 1800 },
+    { name: "G/nuts", price: 3400 },
+    { name: "Potatoes", price: 1500 },
+    { name: "Soya Beans", price: 2800 },
+    { name: "Tobacco", price: 7500 },
   ];
 
   return (
@@ -25,7 +25,7 @@ const Productdetails = () => {
       </h1>
       <table className="w-full bg-gray-300 rounded-lg shadow-md">
         <thead>
-          <tr className="bg-green-300">
+          <tr className="bg-[green]">
             <th className="py-2 px-4 text-left">Product Name</th>
             <th className="py-2 px-4 text-left">Price</th>
           </tr>
