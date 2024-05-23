@@ -35,7 +35,7 @@ const Loans=()=>{
 <p>The NBS Bank plc has acquire a 10-year Five</p>
 <p>million US dollar loan from the international Fund for</p>
 <p>Agriculture Development(IFAD)to enable farmers improve there productivity in malawi....</p>
-<button className="mt-2 bg-green-500 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-blue-300 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-30">
+<button className="mt-2 bg-blue-300 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-30">
 <Link to="/loanshome" >
     visit  &gt; </Link> 
     </button>
