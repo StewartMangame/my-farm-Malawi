@@ -1,10 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Footer from "../homepage/footer";
+import Header from "../homepage/header";
 
 const Farmersworld = () => {
   return (
     <div className="bg-[lightgray]">
+      <Header />
       <div className="bg-[white]">
         <div className="bg-white">
           <NavLink to="https://www.malawiyp.com/company/207/Farmers_World">

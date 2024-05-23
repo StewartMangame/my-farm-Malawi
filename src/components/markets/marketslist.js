@@ -53,10 +53,10 @@ const Marketlist = () => {
         </div>
 
         <div className="bg-gray-300 justify-center pl-[42%] pt-[3%] p-[1em]">
-          <div className="bg-[orange] border w-[200px] h-[60px] items-center rounded-[50%] border-solid border-[green] pt-[0%]">
+          <div className="bg-[orange] border w-[200px] h-[40px] items-center rounded-[6px] border-solid border-[green] pt-[0%]">
             <NavLink to="/pricedetails">
               <div className="text-[green] font-[bold]">
-                <h1 className="text-center pt-[1em]">SELL YOUR PRODUCTS</h1>
+                <h1 className="text-center pt-[.6em]">SELL YOUR PRODUCTS</h1>
               </div>
             </NavLink>
           </div>
