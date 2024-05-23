@@ -21,7 +21,7 @@ const Productdetails = () => {
           alt="malawi logo"
           className="align-left pl-[38%] h-[120px] pl-[45%]"
         />
-        MALAWI GOVERNMENT LEGAL AGRI-PRODUCTS PRICES
+        MALAWI GOVERNMENT AGRI-PRODUCTS PRICES
       </h1>
       <table className="w-full bg-gray-300 rounded-lg shadow-md">
         <thead>
