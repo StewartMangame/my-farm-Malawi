@@ -1,10 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Footer from "../homepage/footer";
+import Header from "../homepage/header";
 
 const EtgProducts = () => {
   return (
     <div className="bg-[lightgray]">
+      <Header />
       <div className="bg-[white]">
         <NavLink to="https://www.etgworld.com/farm-extension-services-malawi.html">
           <img

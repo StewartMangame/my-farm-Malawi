@@ -19,7 +19,7 @@ const Register =()=>{
     };
 return(
             <>
-        <div className="bg-green-500">
+        <div className="bg-green-500 h-screen">
             <p className="text-center  text-2xl"> JOINING MY FARM</p>
             <div className="flex flec-col bg-green-500 items-center justify-center">
                 <form onSubmit={handleSubmit} className="flex flex-col gap-2 w-[500px]">
@@ -39,9 +39,11 @@ return(
                     <input type="password" name="password" id="password" placeholder="Enter password" className="rounded-1xl py-2 border border-black "value={password} onChange={(event)=>setPassword(event.target.value)}  />
 
                     <Link to="/home">
-                    <button type="submit" className="bg-orange-500 hover:bg-orange-700  text-white font-hold py-2 px-2 rounded">
+                    <div className="pl-[78.5%]">
+                    <button type="submit" className="bg-[orange] hover:bg-orange-700  text-white font-hold py-2 px-2 rounded">
                         Join securely
-                    </button></Link>
+                    </button></div>
+                    </Link>
                     <div><p>By proceeding to open an account: i accept My Farm <strong>Terms and conditions.</strong> i have read and understood My Farm <strong>Privacy policy & cookies Policy</strong> as published on the site and confirm iam 18 years of age or over.</p></div>
                 </form>
             </div>

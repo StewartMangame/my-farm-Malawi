@@ -19,7 +19,7 @@ const Marketlist = () => {
         </div>
       </div>
       <div>
-        <div className="bg-gray-300 grid grid-cols-[repeat(auto-fill,minmax(250px,280px))] auto-rows-auto justify-center gap-[60px] pt-[10%] pb-[0%] px-[5%]">
+        <div className="bg-gray-300 grid grid-cols-[repeat(auto-fill,minmax(250px,280px))] auto-rows-auto justify-center gap-[60px] pt-[10%] pb-[0%] px-[5%] pl-[10%] pr-[10%]">
           <NavLink to="/admarc">
             <img
               src="https://www.future-agricultures.org/wp-content/uploads/2020/10/Melissa-Cooperman-IFPRI-Malawi-Trader-Feature.jpg"
@@ -32,7 +32,7 @@ const Marketlist = () => {
           </NavLink>
           <NavLink to="/etgproducts">
             <img
-              src="https://scontent.fblz1-1.fna.fbcdn.net/v/t39.30808-6/439867295_1010487444127278_2631811285208005899_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFUavzoJucJ4CkIQ-4HPfBEWGrWpVgRYFhYatalWBFgWMwWmiThSCOCDNauoR5QdTZHXBhLcI4PdYEMksIUGRAw&_nc_ohc=Q2wuFR0NXmMQ7kNvgH9qRZO&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fblz1-1.fna&oh=00_AYAtiucSY8AuyGmdkRHuw_CcEmFzau_urCSmSXZ37_HdZA&oe=664BCEBF"
+              src="https://th.bing.com/th/id/OIP.66PyKPJARfanBitM7uvzywHaEZ?rs=1&pid=ImgDetMain"
               alt="Market-images"
               className="h-[300px] w-[900px] transition-[0.3s] rounded-[10px] hover:scale-110"
             />
@@ -53,10 +53,10 @@ const Marketlist = () => {
         </div>
 
         <div className="bg-gray-300 justify-center pl-[42%] pt-[3%] p-[1em]">
-          <div className="bg-[orange] border w-[200px] h-[60px] items-center rounded-[50%] border-solid border-[green] pt-[0%]">
+          <div className="bg-[orange] border w-[200px] h-[40px] items-center rounded-[6px] border-solid border-[green] pt-[0%]">
             <NavLink to="/pricedetails">
               <div className="text-[green] font-[bold]">
-                <h1 className="text-center pt-[1em]">SELL YOUR PRODUCTS</h1>
+                <h1 className="text-center pt-[.6em]">SELL YOUR PRODUCTS</h1>
               </div>
             </NavLink>
           </div>
