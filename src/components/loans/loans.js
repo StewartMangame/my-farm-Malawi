@@ -14,34 +14,59 @@ const Loans=()=>{
 <div  className="bg-white p-4 rounded-lg shadow-md flex flex-row items-center">
 <div className="flex-1 text-2xl">
 
-<p className="text-3xl">National bank of malawi</p>
-<p>The nation of Malawi plc opens a window for farmers</p>
-<p>The bank is offering loans to its citizens at a fair</p>
-<p>and affordable .......</p>
-<button className="mt-2 bg-blue-300 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-blue-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-30">
-<Link to="/loanshome" >
-    visit &gt;</Link> 
-    </button>
-    </div>
-    
+      <div className="space-y-4">
+        <div className="bg-white p-4 rounded-lg shadow-md flex flex-row items-center">
+          <div className="flex-1">
+          
+            <h2 className="text-3xl font-semibold">Money Loan</h2>
+            <div className='text-2xl'>
+            <p>Interest rate: 16.5%</p>
+            <p>Minimum amount : Mk 50 000.00</p>
+            <p>Maximum amount : Mk 500 000.00</p>
+            <p>Loan duration: 1.5 - 3 years</p>
+            </div>
+          <a href="https://www.natbank.co.mw/banknet/index.php/personal/personal-loan-facilities/consumer-loans" >  <button  className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-md cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-80">Apply </button></a>
+             
+          </div>
+          <div className="w-100 h-700">
+            <img src="https://th.bing.com/th/id/OIP.bBEzN-Drkhxji67YfCmkrAHaD4?rs=1&pid=ImgDetMain" alt="Money Loan" className="w-full h-full object-cover rounded-md "/>
+          </div>
+        </div>
+        
+        <div className="bg-white p-4 rounded-lg shadow-md flex flex-row items-center">
+          <div className="flex-1">
+            <h2 className="text-3xl font-semibold">Farm Equipment Loan</h2>
+            <div className='text-2xl'>
+            <p>Interest rate: 10.5%</p>
+            <p>Minimum equipment value : Mk 250 000.00</p>
+            <p>Maximum equipment value : Mk 10 000 000.00</p>
+            <p>Loan duration:2 - 7 years</p>
+            </div>
+           <a href="https://www.natbank.co.mw/retail/personal-loan-facilities/farm-infrastructure-and-implements-loan"> <button className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-md cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-80">Apply </button></a>
+          </div>
+          <div className="w-100 h-70">
+            <img src="https://th.bing.com/th/id/OIP.3_gEehg_RQtGHrzCRvQyJQHaE8?rs=1&pid=ImgDetMain" alt="Farm Equipment Loan" className="w-full h-full object-cover rounded-md"></img>
+          </div>
+        </div>
 
-    <div  >
-    <img src="https://th.bing.com/th?id=OIP.fGZ-VlTu8ehr-K_8QzZiLQHaEA&w=339&h=183&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="National Bank of Malawi Loans"></img>
-</div>
+        <div className="bg-white p-4 rounded-lg shadow-md flex flex-row items-center">
+          <div className="flex-1">
+            <h2 className="text-3xl font-semibold">Magulu Loan</h2>
+            <div className='text-2xl'>
+            <p>Interest rate: 5.5%</p>
+            <p>Minimum amount : Mk 100 000.00</p>
+            <p>Maximum amount : Mk 5 000 000.00</p>
+            <p>Loan duration: 1.5 - 3 years</p>
+            </div>
+           <a href='https://www.neef.mw/co-operative-loans/'> <button className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-md cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-80">Apply </button></a>
+          </div>
+          <div className="w-100 h-70">
+            <img src="https://th.bing.com/th/id/OIP.se3AlVxXZ5f6jo1Dv2eEyAHaFa?rs=1&pid=ImgDetMain" alt="Money Loan" className="w-full h-full object-cover rounded-md "/>
+          </div>
+        </div>
+      </div>
 
 
-</div>
-
-<div className="bg-white p-4 rounded-lg shadow-md flex flex-row items-center">
-    <div className="flex-1 text-2xl">
-<p className="text-3xl">NBS Bank plc</p>
-<p>The NBS Bank plc has acquire a 10-year Five</p>
-<p>million US dollar loan from the international Fund for</p>
-<p>Agriculture Development(IFAD)to enable farmers improve there productivity in malawi....</p>
-<button className="mt-2 bg-blue-300 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-30">
-<Link to="/loanshome" >
-    visit  &gt; </Link> 
-    </button>
     </div>
 
 

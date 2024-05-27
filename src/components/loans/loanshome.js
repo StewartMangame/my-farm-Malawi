@@ -109,4 +109,16 @@ const Loanshome = () => {
   );
 };
 
+
+
+ 
+<div w-100 h-90>
+    <img src="https://th.bing.com/th/id/OIP.pePcKGGA2nMcrYCNZ0s6oAHaFU?rs=1&pid=ImgDetMain" alt="NBS Bank Loans"></img>
+</div>
+</div>
+
+
+</div>
+)}
+
 export default Loanshome;
