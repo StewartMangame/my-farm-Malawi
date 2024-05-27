@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import barner from "../markets/barner-image.jpeg";
 
 const Marketlist = () => {
   return (
@@ -6,7 +7,7 @@ const Marketlist = () => {
       <div className="h-[70vh] relative bg-[green]">
         <div style={{ height: "100%" }}>
           <img
-            src="https://scontent.fblz1-1.fna.fbcdn.net/v/t39.30808-6/407313250_917556193420404_2395591532201109262_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGuZID_R85c7AFld1umqi3ude0ILaJF9nt17QgtokX2e2yYaYspPZqebe8dMY3XRUN2DfWyU0B4pDeaQ7WGLrf-&_nc_ohc=dperfPRAFIIQ7kNvgF9QRoh&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fblz1-1.fna&oh=00_AYCKz5TDSqg1Qw0fMESEOqS9Bl1SJbLZ8lXholxRFsZ7bQ&oe=6652CAEB"
+            src={barner}
             className="w-full h-[inherit] object-cover"
             alt="banner_image"
             preload
