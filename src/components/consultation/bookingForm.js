@@ -15,12 +15,25 @@ export default function ConsultationPage() {
     setFormData({ ...formData, [name]: value });
   };
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert("You have successfully booked an appointment");
+  };
+
   return (
     <div className=  "bg-green-500">
       <p className="text-center text-2xl text-black">BOOKING APPOINTMENT</p>
+
+      <div className="border-r-gray-200">
+        <p className="text-center">
+          <strong>NOTE: </strong>you will receive email informing you about the time and person you will have discussion with
+        </p>
+      </div>
+
       <div className="flex flex-col items-center justify-center">
         <form
-          className="flex flex-col gap-3 w-[500px] bg-gray-50 "  
+          className="flex flex-col gap-3 w-[500px] bg-gray-50 " 
+          onSubmit={handleSubmit} 
         >
           <div className=" border border-black p-3 m-4 flex flex-col">
             <label htmlFor="fName" id="fNameLabel" className=" text-lg">
@@ -48,6 +61,7 @@ export default function ConsultationPage() {
               id="lName"
               value={formData.lName}
               onChange={handleChange}
+              required
               placeholder="..."
               className=" border border-black rounded p-3"
             />
@@ -63,6 +77,7 @@ export default function ConsultationPage() {
               id="email"
               value={formData.email}
               onChange={handleChange}
+              required
               placeholder="enter valid email"
               className=" border border-black rounded p-3"
             />
@@ -79,6 +94,7 @@ export default function ConsultationPage() {
               id="date"
               value={formData.date}
               onChange={handleChange}
+              required
               placeholder="date for consultation"
               className="border border-black rounded p-3"
             />
@@ -95,6 +111,7 @@ export default function ConsultationPage() {
             name="ctype"
             value={formData.ctype}
             onChange={handleChange}
+            required
             className="border border-black rounded p-3 bg-white"
             >
               <option value="farming">animal farming</option>
