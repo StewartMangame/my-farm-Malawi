@@ -1,4 +1,8 @@
 import { NavLink } from "react-router-dom";
+import barner from "../markets/barner-image.jpeg";
+import etg from "../markets/etg.jpeg";
+import admarc from "../markets/admarc.jpeg";
+import farmersworld from "../markets/farmersworld.jpeg";
 
 const Marketlist = () => {
   return (
@@ -6,7 +10,7 @@ const Marketlist = () => {
       <div className="h-[70vh] relative bg-[green]">
         <div style={{ height: "100%" }}>
           <img
-            src="https://scontent.fblz1-1.fna.fbcdn.net/v/t39.30808-6/407313250_917556193420404_2395591532201109262_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGuZID_R85c7AFld1umqi3ude0ILaJF9nt17QgtokX2e2yYaYspPZqebe8dMY3XRUN2DfWyU0B4pDeaQ7WGLrf-&_nc_ohc=dperfPRAFIIQ7kNvgF9QRoh&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fblz1-1.fna&oh=00_AYCKz5TDSqg1Qw0fMESEOqS9Bl1SJbLZ8lXholxRFsZ7bQ&oe=6652CAEB"
+            src={barner}
             className="w-full h-[inherit] object-cover"
             alt="banner_image"
             preload
@@ -22,7 +26,7 @@ const Marketlist = () => {
         <div className="bg-gray-300 grid grid-cols-[repeat(auto-fill,minmax(250px,280px))] auto-rows-auto justify-center gap-[60px] pt-[10%] pb-[0%] px-[5%] pl-[10%] pr-[10%]">
           <NavLink to="/admarc">
             <img
-              src="https://www.future-agricultures.org/wp-content/uploads/2020/10/Melissa-Cooperman-IFPRI-Malawi-Trader-Feature.jpg"
+              src={admarc}
               alt="Market-images"
               className="h-[300px] w-[900px] transition-[0.3s] rounded-[10px] hover:scale-110"
             />
@@ -32,7 +36,7 @@ const Marketlist = () => {
           </NavLink>
           <NavLink to="/etgproducts">
             <img
-              src="https://th.bing.com/th/id/OIP.66PyKPJARfanBitM7uvzywHaEZ?rs=1&pid=ImgDetMain"
+              src={etg}
               alt="Market-images"
               className="h-[300px] w-[900px] transition-[0.3s] rounded-[10px] hover:scale-110"
             />
@@ -42,7 +46,7 @@ const Marketlist = () => {
           </NavLink>
           <NavLink to="/farmersworld">
             <img
-              src="https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/346027494_1355291938384225_7419107079963108793_n.jpg?stp=dst-jpg_p526x296&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG84MqS0hgcC6u_inF9Fc4uNaU0eT0Boxw1pTR5PQGjHEYyfbazfxFCXHvXwV9WUCkxCcF5sEXBkh1wWjcX8_3u&_nc_ohc=t93GSLsVEjkQ7kNvgEUeF-y&_nc_ht=scontent-jnb2-1.xx&oh=00_AYAaNAElojjf4nspn3ib3Pqk04PI8nYsdXuzk06Ug7F3gg&oe=6651DFE6"
+              src={farmersworld}
               alt="Market-images"
               className="h-[300px] w-[900px] transition-[0.3s] rounded-[10px] hover:scale-110"
             />
