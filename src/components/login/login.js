@@ -29,12 +29,12 @@ const Login=() =>{
             <form onSubmit={handleSubmit} className=" flex flex-col  text-xl gap-4 w-1/3  mx-auto ">
                 <h2 className="flex flex-col items-center  text-4xl font-[bold] ">Login</h2>
                 <label className= "flex flex-col  w-[500px]" >Username:
-                <input type="text" placeholder='Enter username...' value={username} onChange={(event)=>setUsername(event.target.value)}
+                <input type="text" placeholder='Enter username...'  required value={username} onChange={(event)=>setUsername(event.target.value)}
                 className="border border-black rounded-1xl py-2" />
 
                 </label>
                 <label className="flex flex-col  w-[500px]">password:
-                <input type="password" placeholder='..................' value={password} onChange={(event)=>setPassword(event.target.value)} 
+                <input type="password" placeholder='..................' required  value={password} onChange={(event)=>setPassword(event.target.value)} 
                 className=" border border-black rounded-1xl py-2" />
                 </label>
                 <div className=' flex justify-center hover:underline'> Forgot password?</div>
