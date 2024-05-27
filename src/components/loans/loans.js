@@ -1,20 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import Header from "../homepage/header";
+import Footer from "../homepage/footer";
 
-//function component ive named it Loans that should output available loans and provide link for famers to apply for it
-//it 
-//ive commented here so coz i was failing to comment inside  
-const Loans = () => {
-  return (
-    <div className="container mx-auto p-4 w-full bg-gray-100">
-      <div className="bg-green-600 p-4 text-white text-center">
-        <h1 className="text-4xl font-bold">Available Agriculture Loans</h1>
-      </div>
-      <div className="p-4 text-center text-xl">
-        <p>myfarm-malawi is here to help farmers and ranchers get the farming loan support they need to increase their farming production.</p>
-        <p>Whether you’re a new farmer just getting started or a seasoned rancher in business for decades, we provide information about the available agriculture loan of fair interest options to help you meet your goals which is increasing productivity.</p>
-        
-      </div>
+const Loans=()=>{
+    return(
+    <div className="bg-gray-300" >
+        <Header/>
+<div>
+    
+<h1 className="text-4xl font-bold p-4 text-center text-4xl underline underline-offset-8 text-green-600">Loans</h1>
+</div>
+<div  className="bg-white p-4 rounded-lg shadow-md flex flex-row items-center">
+<div className="flex-1 text-2xl">
 
       <div className="space-y-4">
         <div className="bg-white p-4 rounded-lg shadow-md flex flex-row items-center">
@@ -67,8 +65,19 @@ const Loans = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
-};
 
+
+    </div>
+
+
+ 
+<div w-100 h-90>
+    <img src="https://th.bing.com/th/id/OIP.pePcKGGA2nMcrYCNZ0s6oAHaFU?rs=1&pid=ImgDetMain" alt="NBS Bank Loans"></img>
+</div>
+</div>
+
+<Footer/>
+</div>
+)}
 export default Loans;
+
