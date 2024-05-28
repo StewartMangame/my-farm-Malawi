@@ -27,7 +27,7 @@ const Loans = () => {
             <p>Maximum amount : Mk 500 000.00</p>
             <p>Loan duration: 1.5 - 3 years</p>
             </div>
-          <a href="https://www.natbank.co.mw/banknet/index.php/personal/personal-loan-facilities/consumer-loans" >  <button  className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-md cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-80">Apply now</button></a>
+          <a href="https://www.natbank.co.mw/banknet/index.php/personal/personal-loan-facilities/consumer-loans" >  <button  className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-md cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-80">Apply </button></a>
              
           </div>
           <div className="w-100 h-700">
@@ -44,7 +44,7 @@ const Loans = () => {
             <p>Maximum equipment value : Mk 10 000 000.00</p>
             <p>Loan duration:2 - 7 years</p>
             </div>
-           <a href="https://www.natbank.co.mw/retail/personal-loan-facilities/farm-infrastructure-and-implements-loan"> <button className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-md cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-80">Apply now</button></a>
+           <a href="https://www.natbank.co.mw/retail/personal-loan-facilities/farm-infrastructure-and-implements-loan"> <button className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-md cursor-pointer hover:bg-green-500 hover:text-white-400 hover:shadow-lg transition duration-300 ease-in-out hover:font-bold w-80">Apply </button></a>
           </div>
           <div className="w-100 h-70">
             <img src="https://th.bing.com/th/id/OIP.3_gEehg_RQtGHrzCRvQyJQHaE8?rs=1&pid=ImgDetMain" alt="Farm Equipment Loan" className="w-full h-full object-cover rounded-md"></img>
